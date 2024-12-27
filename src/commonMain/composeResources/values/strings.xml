@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">Favily</string>
+    <string name="cart_button">Cart</string>
+    <string name="favorite_button">Favorite</string>
+    <string name="retry_button">Retry</string>
+    <string name="something_wrong">Something is wrong. Try again later</string>
+</resources>

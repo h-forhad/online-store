@@ -1,0 +1,100 @@
+[versions]
+agp = "8.5.2"
+androidx-activity = "1.9.1"
+androidx-activityCompose = "1.9.1"
+androidx-fragment = "1.8.2"
+appcompat = "1.7.0"
+buildkonfig = "0.15.1"
+calendar-compose-ranges = "1.0.5"
+compose = "1.6.10"
+compose-material3 = "1.2.1"
+compose-plugin = "1.7.0-alpha02"
+compose-test-rule = "1.6.8"
+coroutines-version = "1.7.3"
+decompose = "3.0.0"
+decompose-router = "0.8.0"
+essenity = "2.0.0"
+google-services = "4.4.0"
+google-services-map = "0.16.1"
+jetbrain-jvm = "1.8.0"
+koin = "4.0.0-RC1"
+kotlin = "2.0.20"
+kotlin-datetime = "0.4.0"
+kotlinBrowser = "1.0.0-pre.752"
+kotlinx-serialization = "1.6.3"
+kstore = "0.7.2"
+ktor = "2.3.12"
+material-window-size = "0.5.0"
+moko-resource = "0.24.2"
+molecule = "1.2.0"
+qdsfdhvh-image-loader = "1.5.1"
+okio = "3.6.0"
+russhwolf-settings = "1.1.1"
+
+[libraries]
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "androidx-activity" }
+androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "androidx-fragment" }
+buildkonfig-gradle-plugin = { module = "com.codingfeline.buildkonfig:buildkonfig-gradle-plugin", version.ref = "buildkonfig" }
+calendar-compose-basis = { module = "io.github.epicarchitect:calendar-compose-basis", version.ref = "calendar-compose-ranges" }
+calendar-compose-datepicker = { module = "io.github.epicarchitect:calendar-compose-datepicker", version.ref = "calendar-compose-ranges" }
+calendar-compose-pager = { module = "io.github.epicarchitect:calendar-compose-pager", version.ref = "calendar-compose-ranges" }
+calendar-compose-ranges = { module = "io.github.epicarchitect:calendar-compose-ranges", version.ref = "calendar-compose-ranges" }
+compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
+compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "compose" }
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-ui-junit4 = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "compose-test-rule" }
+compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "compose-test-rule" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+decompose = { module = "com.arkivanov.decompose:decompose", version.ref = "decompose" }
+decompose-compose = { module = "com.arkivanov.decompose:extensions-compose", version.ref = "decompose" }
+decompose-router = { module = "io.github.xxfast:decompose-router", version.ref = "decompose-router" }
+google-services-map = { module = "com.google.maps:google-maps-services", version.ref = "google-services-map" }
+koin-android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
+koin-compose = { group = "io.insert-koin", name = "koin-compose", version.ref = "koin" }
+koin-core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
+koltin-gradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-browser = { module = "org.jetbrains.kotlin-wrappers:kotlin-browser", version.ref = "kotlinBrowser" }
+kotlin-corotines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines-version" }
+kotlin-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlin-datetime" }
+kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version.ref = "kotlin" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+kstore = { module = "io.github.xxfast:kstore", version.ref = "kstore" }
+kstore-file = { module = "io.github.xxfast:kstore-file", version.ref = "kstore" }
+kstore-storage = { module = "io.github.xxfast:kstore-storage", version.ref = "kstore" }
+ktor-client-android = { group = "io.ktor", name = "ktor-client-android", version.ref = "ktor" }
+ktor-client-ios = { group = "io.ktor", name = "ktor-client-darwin", version.ref = "ktor" }
+ktor-client-okhttp = { group = "io.ktor", name = "ktor-client-okhttp", version.ref = "ktor" }
+ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
+ktor-content-negotiation = { group = "io.ktor", name = "ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-core = { group = "io.ktor", name = "ktor-client-core", version.ref = "ktor" }
+ktor-logging = { group = "io.ktor", name = "ktor-client-logging", version.ref = "ktor" }
+ktor-serialization = { group = "io.ktor", name = "ktor-serialization-kotlinx-json", version.ref = "ktor" }
+material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose" }
+molecule-gradle-plugin = { module = "app.cash.molecule:molecule-gradle-plugin", version.ref = "molecule" }
+molecule-runtime = { module = "app.cash.molecule:molecule-runtime", version.ref = "molecule" }
+qdsfdhvh-image-loader = { module = "io.github.qdsfdhvh:image-loader", version.ref = "qdsfdhvh-image-loader" }
+russhwolf-settings = { module = "com.russhwolf:multiplatform-settings", version.ref = "russhwolf-settings" }
+russhwolf-settings-serialization = { module = "com.russhwolf:multiplatform-settings-serialization", version.ref = "russhwolf-settings" }
+russhwolf-settings-noarg = { module = "com.russhwolf:multiplatform-settings-no-arg", version.ref = "russhwolf-settings" }
+russhwolf-settings-coroutines = { module = "com.russhwolf:multiplatform-settings-coroutines", version.ref = "russhwolf-settings" }
+material-window-size = { module = "dev.chrisbanes.material3:material3-window-size-class-multiplatform", version.ref = "material-window-size" }
+okio = { module = "com.squareup.okio:okio", version.ref = "okio" }
+
+
+[plugins]
+#composeMultiplatform = { id = "org.jetbrains.compose:compose-gradle-plugin", version.ref = "compose" }
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+buildkonfig = { id = "com.codingfeline.buildkonfig", version.ref = "buildkonfig" }
+serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
