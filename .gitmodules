@@ -2,3 +2,7 @@
 	path = CMP-Core
 	url = https://github.com/h-forhad/CMP-Core
 	branch = 0.0.1
+[submodule "Decompose-Router"]
+	path = Decompose-Router
+	url = https://github.com/xxfast/Decompose-Router.git
+ branch = 0.9.0
