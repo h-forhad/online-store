@@ -1,0 +1,4 @@
+[submodule "CMP-Core"]
+	path = CMP-Core
+	url = https://github.com/h-forhad/CMP-Core
+	branch = 0.0.1
