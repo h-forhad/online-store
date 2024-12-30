@@ -39,16 +39,14 @@ import com.greenrobotdev.core.ui.TopAppBar
 import com.greenrobotdev.core.utils.statusBarPadding
 import com.greenrobotdev.onlinestore.domain.entity.Product
 import com.greenrobotdev.onlinestore.ui.ProductItem
-import composemultiplatformtemplate.online_store.generated.resources.Res
-import composemultiplatformtemplate.online_store.generated.resources.allStringResources
-import composemultiplatformtemplate.online_store.generated.resources.app_name
-import composemultiplatformtemplate.online_store.generated.resources.cart_button
-import composemultiplatformtemplate.online_store.generated.resources.favorite_button
-import composemultiplatformtemplate.online_store.generated.resources.ic_launcher
-import composemultiplatformtemplate.online_store.generated.resources.ic_test
-import composemultiplatformtemplate.online_store.generated.resources.retry_button
-import composemultiplatformtemplate.online_store.generated.resources.something_wrong
 import io.github.xxfast.decompose.router.rememberOnRoute
+import online_store.generated.resources.Res
+import online_store.generated.resources.app_name
+import online_store.generated.resources.cart_button
+import online_store.generated.resources.favorite_button
+import online_store.generated.resources.ic_launcher
+import online_store.generated.resources.retry_button
+import online_store.generated.resources.something_wrong
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 
