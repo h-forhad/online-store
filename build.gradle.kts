@@ -18,7 +18,7 @@ kotlin {
     jvm()
 
     sourceSets.commonMain.dependencies {
-        api(projects.decomposeRouter)
+        api(projects.cmpCore)
 
         implementation(compose.ui)
         implementation(compose.foundation)
@@ -42,6 +42,7 @@ kotlin {
 
         implementation(libs.qdsfdhvh.image.loader)
         implementation(libs.google.services.map)
+        implementation(libs.decompose.router)
         implementation(libs.decompose.compose)
         implementation(libs.calendar.compose.basis)
         implementation(libs.calendar.compose.ranges) // includes basis

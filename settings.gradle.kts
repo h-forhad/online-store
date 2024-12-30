@@ -28,6 +28,5 @@ dependencyResolutionManagement {
 }
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
- 
-include(":decompose-router")
+
 include(":CMP-Core")
